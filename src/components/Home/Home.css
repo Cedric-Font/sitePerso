@@ -1,0 +1,60 @@
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  #backround{
+    width: 100%;
+  }
+  .btn{
+    margin-top: 1%;
+    border: solid rgb(226, 94, 45);
+    box-shadow: 0 0px 10px rgb(226, 94, 45);
+    color: rgb(226, 94, 45);
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .description{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+  }
+  .descriptionDetails{
+    width: 30%;
+    border: solid rgb(226, 94, 45);
+    box-shadow: 0 0px 10px rgb(226, 94, 45);
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .language{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+  }
+  h1{
+    color: blue;
+    color: red;
+  }
+  .jsLogo{
+    width: 10%;
+    border-radius: 10px;
+  }
+  .nodeLogo{
+    width: 10%;
+    border-radius: 10px;
+    margin-left: 1%;
+  }
+  .reactLogo{
+    width: 10%;
+    border-radius: 10px;
+    margin-left: 1%;
+  }
