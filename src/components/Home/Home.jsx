@@ -5,8 +5,8 @@ export default function Home() {
     <div>
       <header>
         
-        <a className="btn" href="#parcour">Parcours</a>
-        <a className="btn2" href="#parcour">Skills</a>
+        <a className="btn" href="#parcour">About</a>
+        <a className="btn2" href="#projects">Project</a>
         
         
         
@@ -56,7 +56,7 @@ export default function Home() {
           <button className="contactBtn" >Contact</button>
         </div>
       </section>
-      <section className="project" >
+      <section id="projects" className="project" >
         <h2 className="projectTitle" >Project</h2>
         <div className="orangeSeparator"></div>
         <div className="projectContainer" >
@@ -67,6 +67,7 @@ export default function Home() {
             It’s e commerce web site who have to purpose make we use javaScript and css (flex box).
           </p>
           </div>
+          <hr className="greyHr2" style={{ width: "100%" }} />
           <img className="projectImg" src="./src/assets/movies.png" alt="" />
           <div className="projectDetails" >
           <h2 className="projectTitle" >Syla Shop</h2>
@@ -74,6 +75,7 @@ export default function Home() {
             It’s e commerce web site who have to purpose make we use javaScript and css (flex box).
           </p>
           </div>
+          <hr className="greyHr2" style={{ width: "100%" }} />
           <img className="projectImg" src="./src/assets/cringe.png" alt="" />
           <div className="projectDetails" >
           <h2 className="projectTitle" >Syla Shop</h2>

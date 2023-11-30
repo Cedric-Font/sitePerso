@@ -66,7 +66,7 @@ a{
     border-radius: 10px;
     margin-top: 20%;
     margin-left: 10%;
-    font-size: 250%;
+    font-size: 2vw;
     background-color: #3d3a3a;
     padding: 1%;
   }
@@ -101,7 +101,7 @@ a{
   }
   .subTitle{
     position: absolute;
-    font-size: 4rem;
+    font-size: 5vw;
     margin-top: 30%;
     margin-right: 10%;
   }
@@ -115,7 +115,17 @@ a{
   }
 .greyHr {
   border: none;
-  border-top: 3px solid #737373;
+  border-top: 3px solid #363636;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin-top: 2%;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+.greyHr2 {
+  border: none;
+  border-top: 3px solid #797979;
   color: #333;
   overflow: visible;
   text-align: center;
