@@ -17,37 +17,90 @@ a{
     width: 100%;
   }
   .btn{
-    margin-top: 1%;
     border: solid rgb(226, 94, 45);
     box-shadow: 0 0px 10px rgb(226, 94, 45);
     color: rgb(226, 94, 45);
-    position: absolute;
-    z-index: 1;
-    margin-right: 18vh;
     background: transparent;
+    height: fit-content;
+    z-index: 1;
   }
   .btn:hover{
     scale: 1.1;
     color: #fff;
     transition: 250ms;
   }
+  .btnNav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    padding-inline: 4vh;
+    width: 100%;
+    justify-content: end;
+    padding: 3px;
+    
+  }
   .btn2{
-    margin-top: 1%;
     width: 4rem;
     text-align: center;
     border: solid rgb(226, 94, 45);
     box-shadow: 0 0px 10px rgb(226, 94, 45);
     color: rgb(226, 94, 45);
-    position: absolute;
-    z-index: 1;
     background: transparent;
-    padding-inline: 4vh;
-    margin-right: 1rem;
+    height: fit-content;
+    z-index: 1;
+    margin-inline: 1%;
+  }
+  .btn3{
+    width: fit-content;
+    text-align: center;
+    border: solid rgb(226, 94, 45);
+    box-shadow: 0 0px 10px rgb(226, 94, 45);
+    color: rgb(226, 94, 45);
+    background: transparent;
+    height: fit-content;
+    z-index: 1;
   }
   .btn2:hover{
     scale: 1.1;
     color: #fff;
     transition: 250ms;
+  }
+  .backround{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    opacity: 0.5;
+  }
+  .discordLogo{
+    position: absolute;
+    width: 3rem;
+    margin-right: 5rem;
+    bottom: 0;
+  }
+  .gitHubLogo{
+      position: absolute;
+      width: 3rem;
+      bottom: 0;
+  }
+  .linkedinLogo{
+    position: absolute;
+    width: 3rem;
+    margin-right: 10rem;
+    bottom: 0;
+    z-index: 1;
+  }
+  .topBtn{
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.5rem;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 18rem;
+    margin-bottom: 3%;
+    padding-inline: 1%;
   }
   header{
     display: flex;
@@ -81,6 +134,7 @@ a{
     position: absolute;
     margin-right: 60%;
     margin-top: 5%;
+    font-size: 4vw;
   }
   .jsLogo{
     width: 18%;

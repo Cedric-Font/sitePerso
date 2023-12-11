@@ -3,11 +3,14 @@ export default function Home() {
 
   return (
     <div>
-      <header>
-        
+      <header id="top">
+        <div className="btnNav"  >
+          <div className="backround" ></div>
         <a className="btn" href="#parcour">About</a>
         <a className="btn2" href="#projects">Project</a>
+        <a className="btn3" href="src/assets/CV.pdf" target="blank" download="src/assets/CV.pdf" >Download my CV</a>
         
+        </div>
         
         
         <h1>CEDRIC FONT <br />
@@ -25,6 +28,17 @@ export default function Home() {
             <source src="src/assets/back.mp4" type="video/mp4"></source>
           </video>
         </section>
+        <a className="linkedinLogo" href="https://www.linkedin.com/in/cedric-font-309823262/">
+        <img className="linkedinLogo" src="src/assets/linkedin.png" alt="logo linkedin"/>
+        </a>
+        <a className="discordLogo" href="https://www.linkedin.com/in/cedric-font-309823262/">
+        <img className="discordLogo" src="src/assets/discord.png" alt="logo discord"/>
+        </a>
+        <a className="gitHubLogo" href="https://github.com/Cedric-Font?tab=repositories">
+        <img className="gitHubLogo" src="src/assets/gitHub.png" alt="logo gitHub"/>
+
+        </a>
+        
       </header>
       <main>
       <section className="language" >
@@ -70,7 +84,7 @@ export default function Home() {
           <hr className="greyHr2" style={{ width: "100%" }} />
           <img className="projectImg" src="./src/assets/movies.png" alt="" />
           <div className="projectDetails" >
-          <h2 className="projectTitle" >Syla Shop</h2>
+          <h2 className="projectTitle" >Api-Quiz</h2>
           <p className="projectDescription" >Quick project in 2 week (my first).
             It’s e commerce web site who have to purpose make we use javaScript and css (flex box).
           </p>
@@ -78,15 +92,13 @@ export default function Home() {
           <hr className="greyHr2" style={{ width: "100%" }} />
           <img className="projectImg" src="./src/assets/cringe.png" alt="" />
           <div className="projectDetails" >
-          <h2 className="projectTitle" >Syla Shop</h2>
+          <h2 className="projectTitle" >Cringe Me</h2>
           <p className="projectDescription" >Quick project in 2 week (my first).
             It’s e commerce web site who have to purpose make we use javaScript and css (flex box).
           </p>
           </div>
-          
-          
         </div>
-
+        <a className="topBtn" href="#top">TOP</a>
       </section>
       </main>
     </div>
